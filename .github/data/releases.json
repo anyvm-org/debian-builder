@@ -1,0 +1,68 @@
+{
+  "os": "debian",
+  "releases": [
+    {
+      "tag": "12",
+      "release": "12",
+      "arch": "x86_64",
+      "sync": "rsync,scp,sshfs,nfs,tar",
+      "shutdown": "shutdown -h now",
+      "desktop": false,
+      "build": true
+    },
+    {
+      "tag": "12-aarch64",
+      "release": "12",
+      "arch": "aarch64",
+      "sync": "rsync,scp,sshfs,nfs,tar",
+      "shutdown": "shutdown -h now",
+      "desktop": false,
+      "build": true
+    },
+    {
+      "tag": "12-ppc64le",
+      "release": "12",
+      "arch": "ppc64le",
+      "sync": "rsync,scp,sshfs,nfs,tar",
+      "shutdown": "shutdown -h now",
+      "desktop": false,
+      "build": true
+    },
+    {
+      "tag": "13",
+      "release": "13",
+      "arch": "x86_64",
+      "sync": "rsync,scp,sshfs,nfs,tar",
+      "shutdown": "shutdown -h now",
+      "desktop": false,
+      "build": true
+    },
+    {
+      "tag": "13-aarch64",
+      "release": "13",
+      "arch": "aarch64",
+      "sync": "rsync,scp,sshfs,nfs,tar",
+      "shutdown": "shutdown -h now",
+      "desktop": false,
+      "build": true
+    },
+    {
+      "tag": "13-riscv64",
+      "release": "13",
+      "arch": "riscv64",
+      "sync": "rsync,scp,sshfs,nfs,tar",
+      "shutdown": "shutdown -h now",
+      "desktop": false,
+      "build": true
+    },
+    {
+      "tag": "13-ppc64le",
+      "release": "13",
+      "arch": "ppc64le",
+      "sync": "rsync,scp,sshfs,nfs,tar",
+      "shutdown": "shutdown -h now",
+      "desktop": false,
+      "build": true
+    }
+  ]
+}
